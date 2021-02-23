@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <style>
+        /* Style inputs type elements and textareas */
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        
+        input[type=submit] {
+            background-color: #c94625;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            position: relative;
+            left:555px;
+        }
+
+        
+        input[type=submit]:hover {
+            background-color: #a4c1c5;
+        }
+
+         /* background */
+        .container {
+            border-radius: 5px;
+            background-image: url(feed1.jpg);
+            padding: 96px;
+            color: white;
+        }
+
+        .container h1{
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Share your experience with us ...</h1>
+        <form >
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter first name">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter last name">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="India">India</option>
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="USA">USA</option>
+            </select>
+
+            <label for="subject">Feedback</label>
+            <textarea id="feedback" name="feedback" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+</body>
+
+</html>

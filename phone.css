@@ -1,0 +1,58 @@
+
+
+/* navbar */
+
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ::before {
+        height: 135px;
+}
+#navbar  ul li {
+    flex-direction: column;
+    font-size: 10px;
+}
+
+/* logo  */
+
+#logo
+
+
+
+/* container */
+#container{
+    height: 280px;
+    
+}
+
+.details h1 {
+       
+       font-size: 7px;
+       margin: 41px 7px;
+       padding: 0px;
+}
+.details p{
+    padding: 0px;
+    margin: 0px 7px;
+    font-size: 10px;
+    left: 129px;
+}
+
+
+/* container2 */
+#container2
+
+
+
+
+
+/* footer */
+.footer-container hs1 {
+    text-align: center;
+}
+
+.footer-container ul li {
+    
+    text-align: center;
+}
